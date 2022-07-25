@@ -1,0 +1,111 @@
+<head>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/skins/color-1.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <div class="main-container">
+      <div class="aside">
+        <div class="nav-toggler">
+          <span></span>
+        </div>
+        <ul class="nav">
+          <li><a href="index.html" class="active"><i class ="fa fa-home"></i> Home</a></li>
+          <li><a href="AboutMe.html"><i class ="fa fa-user"></i> About</a></li>
+          <li><a href="Skills.html"><i class = "fa fa-tools"></i> Skills</a></li>
+          <li><a href="Services.html"><i class ="fa fa-list"></i> Services</a></li>
+          <li><a href="Portfolio.html"><i class ="fa fa-briefcase"></i> Portfolio</a></li>
+          <li><a href="Contact.html"><i class ="fa fa-comments"></i> Contact</a></li>
+          </ul>
+          <div class="hamburger-menu">
+      <input id="menu__toggle" type="checkbox" />
+      <label class="menu__btn" for="menu__toggle">
+        <span></span>
+      </label>
+  
+      <ul class="menu__box">
+        <li><a class="menu__item" href="index.html">Home</a></li>
+        <li><a class="menu__item" href="AboutMe.html">About</a></li>
+        <li><a class="menu__item" href="Skills.html">Skills</a></li>
+        <li><a class="menu__item" href="Services.html">Services</a></li>
+        <li><a class="menu__item" href="Portfolio.html">Portfolio</a></li>
+        <li><a class="menu__item" href="Contact.html">Contact</a></li>
+      </ul>
+    </div>
+      </div>
+    </div>
+    
+    <section class="contact section" id="contact">
+      <div class="container">
+        <form action="https://formsubmit.co/tinahlwatika14@gmail.com" method = "POST" id="contact-form">
+        <div class="row">
+          <div class="section-title padd-15">
+            <h2>Contact Me</h2>
+          </div>
+        </div>      
+        <h3 class="contact-title"> Send me an Email</h3>
+        <h4 class="contact-sub-title">I am very responsive to messages</h4>
+        <!--Contact Form-->
+        <div class="row">
+          <div class="contact-form padd-15">
+            <div class="row">
+              <div class="form-item col-6 padd-15">
+                
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Name" id="name">
+                </div>
+              </div>
+              <div class="form-item col-6 padd-15">
+                <div class="form-group">
+                  <input type="email" class="form-control" placeholder="Email address" id="email">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-item col-12 padd-15">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Subject" id="subject">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-item col-12 padd-15">
+                <div class="form-group">
+                  <textarea name="" class="form-control" id="" placeholder="Message" id="message"></textarea>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-item col-12 padd-15">
+                <button type="submit" class="btn">Send Message</button>
+              </div>
+            </div>
+          </div>
+        </form>
+          <div class="contact-info-item padd-15">
+            <div class="icon"><i class="fa fa-phone"></i></div>
+            <h4>Call me on</h4>
+            <p>+2767 163 9142</p>
+          </div>
+          <div class="contact-info-item padd-15">
+            <div class="icon"><i class="fa fa-map-marker-alt"></i></div>
+            <h4>Office</h4>
+            <p>Tina Hlwatika</p>
+          </div>
+          <div class="contact-info-item padd-15">
+            <div class="icon"><i class="fa fa-envelope"></i></div>
+            <h4>Email</h4>
+            <p>tinahlwatika14@gmail.com</p>
+          </div>
+          <div class="contact-info-item padd-15">
+            <div class="icon"><i class="fa fa-globe-europe"></i></div>
+            <h4>Website</h4>
+            <p>www.domain.com</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase.js"></script>
+  <script src="script.js"></script>
+</body>  
